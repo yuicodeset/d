@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScamShield - Анализатор</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Styles moved to css/style.css */
+    </style>
+</head>
+
+<body class="analyzer-mode">
+
+    <div class="background-effects">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <div class="app-container glass-panel">
+
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <a href="index.html"
+                    style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 10px;">
+                    <span class="icon">🛡️</span>
+                    <h1>ScamShield <span style="font-size: 0.6em; opacity: 0.7; font-weight: 300;">ANALYZER v2.0</span>
+                    </h1>
+                </a>
+            </div>
+
+            <div class="controls">
+                <!-- Language Toggle -->
+                <div class="lang-switch glass-element">
+                    <button class="lang-btn active" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="kk">KK</button>
+                </div>
+
+                <!-- Theme Toggle -->
+                <button id="theme-toggle" aria-label="Toggle theme">
+                    <span class="icon-sun">☀️</span>
+                    <span class="icon-moon">🌙</span>
+                </button>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content chat-layout">
+
+            <!-- Analysis Header / Status Bar -->
+            <div class="analysis-status glass-element">
+                <span>SYSTEM: <span style="color: var(--accent-color);">ONLINE</span></span>
+                <span>MODE: <span style="color: var(--accent-color);">DEEP SCAN</span></span>
+            </div>
+
+            <div id="chat-history" class="chat-history">
+                <!-- Welcome Message is injected by JS -->
+            </div>
+
+            <div class="chat-input-area glass-element">
+                <div class="input-wrapper">
+                    <textarea id="user-input" placeholder="Вставьте текст подозрительного сообщения..."
+                        data-i18n-placeholder="chat_placeholder" rows="1"></textarea>
+                    <button id="send-btn" class="btn-send" aria-label="Send">
+                        <span class="icon-send">➤</span>
+                    </button>
+                </div>
+                <p id="error-message" class="error-message hidden"></p>
+            </div>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>© 2026 ScamShield. <span data-i18n="footer_text">Ваша безопасность — наш приоритет.</span></p>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/i18n.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/ai-analyzer.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScamShield - Главная</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Styles moved to css/style.css */
+    </style>
+</head>
+
+<body>
+
+    <div class="background-effects">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <div class="app-container glass-panel" style="overflow-y: auto;">
+
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <span class="icon">🛡️</span>
+                <h1>ScamShield</h1>
+            </div>
+
+            <div class="controls">
+                <div class="lang-switch glass-element">
+                    <button class="lang-btn active" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="kk">KK</button>
+                </div>
+
+                <!-- Theme Toggle -->
+                <button id="theme-toggle" aria-label="Toggle theme">
+                    <span class="icon-sun">☀️</span>
+                    <span class="icon-moon">🌙</span>
+                </button>
+
+
+            </div>
+        </header>
+
+        <main class="landing-container">
+            <div>
+                <h1 class="hero-title" data-i18n="hero_title">Ваш личный ИИ-эксперт<br>по кибербезопасности</h1>
+                <p class="hero-subtitle" data-i18n="hero_subtitle">
+                    ScamShield использует передовые алгоритмы анализа текста для мгновенного выявления мошеннических
+                    схем, фишинга и социальной инженерии.
+                </p>
+            </div>
+
+            <a href="chat.html" class="cta-btn">
+                <span data-i18n="cta_button">Запустить Анализатор</span>
+                <span>➤</span>
+            </a>
+
+            <div class="stats-row">
+                <div class="stat-item">
+                    <div class="stat-val">99.8%</div>
+                    <div class="stat-label" data-i18n="stat_accuracy">Точность</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-val">24/7</div>
+                    <div class="stat-label" data-i18n="stat_monitoring">Мониторинг</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-val">0.2s</div>
+                    <div class="stat-label" data-i18n="stat_speed">Скорость</div>
+                </div>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <span class="feature-icon">🔍</span>
+                    <h3 class="feature-title" data-i18n="feat_analysis_title">Глубокий анализ</h3>
+                    <p class="feature-desc" data-i18n="feat_analysis_desc">Сканирует сообщения на наличие триггеров
+                        мошенничества, скрытых угроз и
+                        манипулятивных техник.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">🎣</span>
+                    <h3 class="feature-title" data-i18n="feat_phishing_title">Анти-Фишинг</h3>
+                    <p class="feature-desc" data-i18n="feat_phishing_desc">Распознает поддельные ссылки и сайты,
+                        имитирующие популярные сервисы и
+                        банки.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">🧠</span>
+                    <h3 class="feature-title" data-i18n="feat_social_title">Социальная инженерия</h3>
+                    <p class="feature-desc" data-i18n="feat_social_desc">Выявляет психологические уловки, такие как
+                        срочность, жадность или страх.
+                    </p>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <p>© 2026 ScamShield. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/theme.js"></script>
+    <script src="js/i18n.js"></script>
+</body>
+
+</html>

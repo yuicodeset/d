@@ -1,0 +1,54 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 356 >>
+stream
+BT
+/F1 18 Tf
+72 740 Td
+(Electrical Panel / Электрический щит) Tj
+0 -28 Td
+/F1 12 Tf
+(Short guide / Қысқа нұсқаулық / Краткое руководство) Tj
+0 -22 Td
+(1) Tj
+24 0 Td
+(Safety first: de-energize before work.) Tj
+0 -18 Td
+(- Check breakers/relays/terminals/wiring visually for heat, smell, discoloration.) Tj
+0 -18 Td
+(- Verify tightening, labeling, and separation of PE/N.) Tj
+0 -18 Td
+(- Diagnose by: power off -> measurement -> localization.) Tj
+0 -30 Td
+/F1 10 Tf
+(This PDF is a placeholder generated as plain text for the demo site.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f
+0000000015 00000 n
+0000000064 00000 n
+0000000121 00000 n
+0000000250 00000 n
+0000000657 00000 n
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+727
+%%EOF
+
